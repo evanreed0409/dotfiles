@@ -32,7 +32,7 @@ window#waybar.termite #window,
 window#waybar.Firefox #window,
 window#waybar.Navigator #window,
 window#waybar.PCSX2 #window {
-    color: #7aa2f7;
+    color: #bb9af7;
 	background: #24283b;
 }
 
@@ -47,7 +47,7 @@ window#waybar.PCSX2 #window {
 
 #workspaces button {
 	transition: none;
-	color: #7aa2f7;
+	color: #bb9af7;
 	background: transparent;
 	font-size: 16px;
 }
@@ -72,7 +72,7 @@ window#waybar.PCSX2 #window {
 	border-radius: 26px;
 	background: #282a36;
 	transition: none;
-	color: #7aa2f7; 
+	color: #bb9af7; 
 	background: #24283b;
 }
 
@@ -90,7 +90,7 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #7aa2f7;
+	color: #bb9af7;
 	background: #24283b;
 }
 
@@ -102,7 +102,7 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #7aa2f7;
+	color: #bb9af7;
 	background: #24283b;
 }
 
@@ -114,7 +114,7 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #7aa2f7; 
+	color: #bb9af7; 
 	background: #24283b;
 }
 
@@ -126,7 +126,7 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #7aa2f7;
+	color: #bb9af7;
 	background: #24283b;
 }
 
@@ -138,7 +138,7 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #7aa2f7;
+	color: #bb9af7;
 	background: #24283b;
 }
 
@@ -151,7 +151,7 @@ window#waybar.PCSX2 #window {
 	margin-bottom: 0;
 	border-radius: 26px;
 	transition: none;
-	color: #7aa2f7;
+	color: #bb9af7;
 	background: #24283b;
 }
 
