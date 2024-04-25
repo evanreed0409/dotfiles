@@ -6,7 +6,7 @@
 window {
   font-size: 14px;
   font-family: Nerd Font Hack;
-  opacity: 0.75;
+  opacity: 1.0;
 }
 
 #text {
@@ -18,5 +18,7 @@ window {
 }
 
 #input {
-
+  color: #7aa2f7;
+  border-color: #7aa2f7;
+  border: 5px;
 }
