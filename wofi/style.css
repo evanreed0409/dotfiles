@@ -1,12 +1,20 @@
 * {
-  border-radius: 3px;
+  font-size: 14px;
+  font-family: Nerd Font Hack;
   background: #24283b;
 }
 
 window {
-  font-size: 14px;
-  font-family: Nerd Font Hack;
   opacity: 1.0;
+}
+
+#inner-box {
+}
+
+#outer-box {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom right, #6aa2f7, #bb9af7) 1;
 }
 
 #text {
