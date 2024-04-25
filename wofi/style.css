@@ -1,0 +1,22 @@
+* {
+  border-radius: 3px;
+  background: #24283b;
+}
+
+window {
+  font-size: 14px;
+  font-family: Nerd Font Hack;
+  opacity: 0.75;
+}
+
+#text {
+  color: #bb9af7;
+}
+
+#text:selected {
+  color: #e7dcfc;
+}
+
+#input {
+
+}
