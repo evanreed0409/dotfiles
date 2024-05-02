@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"layer": "top",
 	"modules-left": ["hyprland/workspaces", "mpd", "hyprland/mode"],
 	"modules-center": [],
@@ -46,4 +47,45 @@
         	"format-full": " {capacity}%",
         	"format-icons": ["  ", "  ", "  "]
 	}
+=======
+  "layer": "top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": [],
+    "modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock", "power"],
+    "mpd": {
+      "tooltip": false,
+      "format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+      "format-disconnected": "ﳌ",
+      "format-stopped": "",
+      "state-icons": {
+        "playing": "",
+        "paused": ""
+      }
+    },
+    "pulseaudio": {
+      "tooltip": false,
+      "scroll-step": 5,
+      "format": "{icon} {volume}%",
+      "format-icons": {
+        "default": ["奄", "奔", "墳"]
+      }
+    },
+    "network": {
+      "tooltip": false,
+      "format-wifi": " {essid} {ipaddr}",
+      "format-ethernet": " {ipaddr}"
+    },
+    "cpu": {
+      "tooltip": false,
+      "format": " {}%"
+    },
+    "memory": {
+      "tooltip": false,
+      "format": "   {used} GiB"
+    },
+    "clock": {
+      "format": "{:%D %H:%M}  "
+      }
+    }
+>>>>>>> 8e49b846cf2e890e1c8d4019de1f28be35b6792f
 }
