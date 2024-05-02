@@ -1,57 +1,8 @@
 {
-<<<<<<< HEAD
-	"layer": "top",
-	"modules-left": ["hyprland/workspaces", "mpd", "hyprland/mode"],
-	"modules-center": [],
-	"modules-right": ["network", "pulseaudio", "cpu", "memory", "battery", "clock"],
-	"mpd": {
-		"tooltip": false,
-		"format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
-		"format-disconnected": "ﳌ",
-		"format-stopped": "",
-        "state-icons": {
-            "playing": "",
-            "paused": ""
-        }
-	},
-	"pulseaudio": {
-		"tooltip": false,
-		"scroll-step": 5,
-		"format": "{icon} {volume}%",
-		"format-icons": {
-			"default": ["奄", "奔", "墳"]
-		}
-	},
-	"network": {
-		"tooltip": false,
-		"format-wifi": "   {essid} {ipaddr}",
-		"format-ethernet": " {ipaddr}"
-	},
-	"cpu": {
-		"tooltip": false,
-		"format": " {}%"
-	},
-	"memory": {
-		"tooltip": false,
-		"format": " {}%"
-	},
-  	"battery": {
-        	"states": {
-            		"warning": 20,
-            		"critical": 10
-        	},
-        	"format": "{icon} {capacity}%",
-        	"format-charging": " {capacity}%",
-        	"format-plugged": "{capacity}%",
-        	"format-alt": "{time} {icon}",
-        	"format-full": " {capacity}%",
-        	"format-icons": ["  ", "  ", "  "]
-	}
-=======
   "layer": "top",
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "mpd", "hyprland/mode"],
     "modules-center": [],
-    "modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock", "power"],
+    "modules-right": ["network", "cpu", "memory", "battery", "clock"],
     "mpd": {
       "tooltip": false,
       "format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
@@ -72,7 +23,7 @@
     },
     "network": {
       "tooltip": false,
-      "format-wifi": " {essid} {ipaddr}",
+      "format-wifi": "   {essid} {ipaddr}",
       "format-ethernet": " {ipaddr}"
     },
     "cpu": {
@@ -83,9 +34,19 @@
       "tooltip": false,
       "format": "   {used} GiB"
     },
+    "battery": {
+      "states": {
+        "warning": 20,
+        "critical": 10
+      },
+      "format": "{icon} {capacity}%",
+      "format-charging": " {capacity}%",
+      "format-plugged": "{capacity}%",
+      "format-alt": "{time} {icon}",
+      "format-full": " {capacity}%",
+      "format-icons": ["  ", "  ", "  "]
+    },
     "clock": {
       "format": "{:%D %H:%M}  "
-      }
     }
->>>>>>> 8e49b846cf2e890e1c8d4019de1f28be35b6792f
 }
