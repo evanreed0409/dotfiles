@@ -1,8 +1,8 @@
 {
   "layer": "top",
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": [],
-    "modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock", "power"],
+    "modules-right": ["network", "cpu", "memory", "clock"],
     "mpd": {
       "tooltip": false,
       "format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
@@ -13,6 +13,11 @@
         "paused": ""
       }
     },
+    "hyprland/window": {
+      "format": "{}",
+      "rewrite": {},
+      "separate-outputs": true
+    },
     "pulseaudio": {
       "tooltip": false,
       "scroll-step": 5,
@@ -21,21 +26,21 @@
         "default": ["奄", "奔", "墳"]
       }
     },
-    "network": {
-      "tooltip": false,
-      "format-wifi": " {essid} {ipaddr}",
-      "format-ethernet": " {ipaddr}"
-    },
-    "cpu": {
-      "tooltip": false,
-      "format": " {}%"
-    },
-    "memory": {
-      "tooltip": false,
-      "format": "   {used} GiB"
-    },
-    "clock": {
-      "format": "{:%D %H:%M}  "
+      "network": {
+        "tooltip": false,
+        "format-wifi": " {essid} {ipaddr}",
+        "format-ethernet": " {ipaddr}"
+      },
+      "cpu": {
+        "tooltip": false,
+        "format": " {}%"
+      },
+      "memory": {
+        "tooltip": false,
+        "format": "   {used} GiB"
+      },
+      "clock": {
+        "format": "{:%D %H:%M}  "
       }
-    }
+}
 }

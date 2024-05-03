@@ -28,14 +28,6 @@ window#waybar.hidden {
 	background: transparent;
 }
 
-window#waybar.termite #window,
-window#waybar.Firefox #window,
-window#waybar.Navigator #window,
-window#waybar.PCSX2 #window {
-    color: #bb9af7;
-	background: #24283b;
-}
-
 #workspaces {
 	margin-top: 8px;
 	margin-left: 12px;
