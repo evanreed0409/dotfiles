@@ -1,17 +1,12 @@
 {
   "layer": "top",
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": [],
-    "modules-right": ["network", "cpu", "memory", "battery", "clock", "custom/power"],
-    "mpd": {
-      "tooltip": false,
-      "format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
-      "format-disconnected": "ﳌ",
-      "format-stopped": "",
-      "state-icons": {
-        "playing": "",
-        "paused": ""
-      }
+    "modules-right": ["network", "cpu", "memory", "clock", "custom/power"],
+    "hyprland/window": {
+      "format": "{}",
+      "rewrite": {},
+      "separate-outputs": true
     },
     "pulseaudio": {
       "tooltip": false,
