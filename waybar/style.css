@@ -147,3 +147,15 @@ window#waybar.hidden {
 	background: #24283b;
 }
 
+#power {
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	border-radius: 26px;
+	transition: none;
+	color: #bb9af7;
+	background: #24283b;
+}
