@@ -76,13 +76,13 @@
           "critical": 15
       },
       "max-length": 20,
-      "format": "{icon} ",
+      "format": "{icon} {capacity}% ",
       "format-warning": "{icon}",
       "format-critical": "{icon}",
       "format-charging": "<span font-family='Font Awesome 6 Free'></span>",
       "format-plugged": "",
 
-      "format-alt": "{icon} {time}",
+      "format-alt": "{icon} {power}W ",
       "format-full": "",
       "format-icons": ["󱊡", "󱊢", "󱊣"]
     },
